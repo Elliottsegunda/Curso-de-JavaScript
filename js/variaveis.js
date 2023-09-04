@@ -8,3 +8,11 @@ var texto = "Curso de JavaScript"
 //variaveis do tipo number
 var numeroInteiro = -7
 /*Podem armazenar reais ou inteiros.*/
+
+//boolean
+var condicao = true
+
+//novos comandos
+//alert(texto) //abrir um dialogo
+//document.write(texto) //escrever diretamente no browser
+//console.log(numeroInteiro) //ver no console.
