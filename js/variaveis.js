@@ -25,6 +25,6 @@ null - representa a ausençia intencional de um valor, ou seja nós escolhemos d
  var nome = null
 
  var nome
-undefined - indica que a variavel apesar de declarada não possue nenhum valor, ou seja definimos mas não introduzimos dados nenhum
+undefined - indica que a variavel apesar de declarada não possue nenhum valor, ou seja definimos mas não introduzimos dados nenhum, aponta para um valor inexistente.
 
 */ 
