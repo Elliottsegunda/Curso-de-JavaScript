@@ -19,3 +19,12 @@ var condicao = true
 //prompt('Digite o seu nome') //dialogo com entrada de texto.
 
 /* o prompt sempre recebe os dados como string*/ 
+
+/* Diferença entre null e undefined
+null - representa a ausençia intencional de um valor, ou seja nós escolhemos deixar a variavel null por opção.
+ var nome = null
+
+ var nome
+undefined - indica que a variavel apesar de declarada não possue nenhum valor, ou seja definimos mas não introduzimos dados nenhum
+
+*/ 
