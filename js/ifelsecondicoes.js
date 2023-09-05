@@ -1,9 +1,10 @@
   /*
         É atraves dos operadores de comparação que nós colocamos expressoes que serão verificadas dentro dos nossos comandos if.
   */
- if( true){
+ if( false){
     //caso seja verdade
     document.write('Entrou na condição verdadeira');
 
- }
- //else{}
+ }else{
+    document.write('Entrou na condição falsa');
+}
