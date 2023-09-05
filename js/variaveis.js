@@ -16,3 +16,6 @@ var condicao = true
 //alert(texto) //abrir um dialogo
 //document.write(texto) //escrever diretamente no browser
 //console.log(numeroInteiro) //ver no console.
+//prompt('Digite o seu nome') //dialogo com entrada de texto.
+
+/* o prompt sempre recebe os dados como string*/ 
