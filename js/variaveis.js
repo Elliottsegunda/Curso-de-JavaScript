@@ -1,4 +1,4 @@
-/**
+/*
  No javaScript não precisa se definir tipo de variavel, ele vai receber o seu tipo de acordo ao dados introduzidos,
   salve-se quando se quiser especificar
  */
