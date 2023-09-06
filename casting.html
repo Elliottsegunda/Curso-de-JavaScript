@@ -12,9 +12,18 @@
         /*
         Como já se tinha dito antes, todos os dados recebidos pelo prompt são string, por isso a operação feita foi concatenação, 
         caso queiramos calcular, primeiro devemos converter
+
+        casting:
+        parseInt()
+        parseFloat()
         */
         var variavel1 = prompt("Digite um numero");
         var variavel2 = prompt("Digite outro numero");
+
+        //receber os dados again e converter
+
+        variavel1 = parseInt(variavel1)
+        variavel2 = parseInt(variavel2)
 
         document.write(variavel1 + variavel2);
     </script>
