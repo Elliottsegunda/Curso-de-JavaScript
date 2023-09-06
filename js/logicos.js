@@ -28,3 +28,15 @@ else{
 }
 
  document.write('<hr>')
+
+ var media = prompt('Digite a sua media:');
+ var faltas = prompt('Digite quantidade de faltas:');
+ var faltas_maximas = 15;
+
+ if( media >= 7 && faltas <= faltas_maximas  ){
+    document.write('<hr>')
+    document.write('A sua media é ' +media+' e o seu numero de faltas não excede o limite, com isso, você está APROVADO');
+ }else{
+    document.write('A sua media é ' +media+' Você infelizmente está reprovado');
+
+ }
