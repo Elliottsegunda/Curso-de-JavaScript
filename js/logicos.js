@@ -27,3 +27,4 @@ else{
     document.write('Falso');
 }
 
+ document.write('<hr>')
