@@ -3,6 +3,9 @@
  || - operador logico OR ele verifica e retorna verdadeiro se pelo menos uma das condições for verdadeira
  ! - operador de negação, ele inverte o resultado, se o resultado for verdadeiro ao usarmos a negação será falso.
 
+ Operador ternario SINTAXE:
+ condicao ?
+
  if(2 == 4 || 3 >= 5 || 'a' == 'b'){
     document.write('Verdade');
 }
