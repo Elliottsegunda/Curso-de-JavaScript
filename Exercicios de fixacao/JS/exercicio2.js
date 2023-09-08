@@ -6,10 +6,9 @@ var peso = prompt('Digite o seu peso:');
  altura = parseFloat(altura);
  peso = parseFloat(peso);
 
- altura /=100;
+ altura =altura /100;
 
- var massa = peso / altura**2;
-
+ var massa = peso / altura*altura;
   if (massa <16) {
     document.write(nome+' possui índice de massa corporal igual a: '+massa+' sendo classificado como : Baixo peso muito grave');
   }
