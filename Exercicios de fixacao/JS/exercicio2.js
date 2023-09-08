@@ -6,7 +6,7 @@ var peso = prompt('Digite o seu peso:');
  altura = parseFloat(altura);
  peso = parseFloat(peso);
 
- altura =altura /100;
+ altura = altura /100;
 
  var massa = peso / altura*altura;
   if (massa <16) {
