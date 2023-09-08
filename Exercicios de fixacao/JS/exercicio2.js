@@ -18,5 +18,20 @@ var massa =null;
     document.write(+nome+' possui índice de massa corporal igual a: '+massa+' sendo classificado como : Baixo peso grave');
   }
   else if(massa >= 17 && massa <=18.49 ){
-    document.write(+nome+' possui índice de massa corporal igual a: '+massa+' sendo classificado como : Baixo peso grave');
+    document.write(+nome+' possui índice de massa corporal igual a: '+massa+' sendo classificado como : Baixo peso');
+  }
+  else if(massa >= 18.50 && massa <=24.99 ){
+    document.write(+nome+' possui índice de massa corporal igual a: '+massa+' sendo classificado como : Peso normal');
+  }
+  else if(massa >= 25 && massa <=29.99 ){
+    document.write(+nome+' possui índice de massa corporal igual a: '+massa+' sendo classificado como : Sobrepeso');
+  }
+  else if(massa >= 30 && massa <=34.99 ){
+    document.write(+nome+' possui índice de massa corporal igual a: '+massa+' sendo classificado como : Obesidade Grau I');
+  }
+  else if(massa >= 35 && massa <=39.99 ){
+    document.write(+nome+' possui índice de massa corporal igual a: '+massa+' sendo classificado como : Obesidade grau II');
+  }
+  else if(massa >= 40 ){
+    document.write(+nome+' possui índice de massa corporal igual a: '+massa+' sendo classificado como : Obesidade grau III');
   }
