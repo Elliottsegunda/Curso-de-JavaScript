@@ -31,7 +31,14 @@
             //document.write('O TERRENO POSSUI ' +area+ 'metros quadrados ');
             return area;
        }
-       document.write(' O terreno possui '+calcularAreaTerreno(15,25)+' metros quadrados');
+      // document.write(' O terreno possui '+calcularAreaTerreno(15,25)+' metros quadrados');
+
+      //via dados recebido pelo usuario
+
+      var largura = prompt('Digite a largura do terreno em metros quadrados:');
+      var comprimento = prompt('Digite o cumprimento do terreno em metros quadrados:');
+
+      document.write('O terreno possui:'+calcularAreaTerreno(largura, comprimento)+' metros quadrados');
 
     </script>
 </body>
