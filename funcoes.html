@@ -10,14 +10,29 @@
 
     <script>
         /*
-            UMA FUNÇÃO tem o objectivo de encapsular um bloco de de codigos com um objectivo definido.
+            UMA FUNÇÃO tem o objectivo de encapsular um bloco de de codigos com um objectivo definido. podemos dizer, que são sub-programas dos nossos programas.
+            elas podem ser, void ou return
 
-            funcao calcularArea(largura,cumprimento){
+            void - realizam algum tipo de processamento, mas não ofereçem nenhum tipo de retorno
+
+
+            function calcularArea(largura,cumprimento){
                 var area = largura*cumprimento;
                 return area;
 
             }
+
+            parametros - funcionam como uma especie de entrada de dados para a função, são variaveis, podemos ou não defini-las, eles tbm podem ser chamados de argumentos
+            dentro do escopo de uma função, podemos usar todos os recursos da linguagem de programação para a lógica da função.
         */
+         function calcularAreaTerreno( largura, comprimento){
+            //logica
+            var area = comprimento * largura;
+            //document.write('O TERRENO POSSUI ' +area+ 'metros quadrados ');
+            return area;
+       }
+       document.write(' O terreno possui '+calcularAreaTerreno(15,25)+' metros quadrados');
+
     </script>
 </body>
 </html>
