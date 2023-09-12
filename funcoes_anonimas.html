@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funções anonimas</title>
+</head>
+<body>
+    <script>
+        /*
+        Como o nome indica, funções anonimas são funções sem nomes, têm o mesmo comportamento que funções normais, a única diferença é a ausência de nome
+        então, como será chamada se não possui nome? ai se usa um recuros chamado wrapper
+
+        outra curiosidade, o JS permite armazenar até uma função, dentro de uma variavel
+        */
+
+        var exibirNome = function (nome){
+            document.write('OLÁ '+nome+' Como estás?');
+        }
+        exibirNome('Elliott');
+    </script>
+</body>
+</html>
