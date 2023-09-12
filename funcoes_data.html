@@ -6,6 +6,7 @@
     <title>Funções para Datas</title>
 </head>
 <body>
+    
     <script>
         /*
             ============================================================Funções para Datas =========================================================
@@ -16,6 +17,8 @@
             .getDate() - pegar o dia do mes em questão 1-31
             .getMonth() - pegar o mes em questão 0-11, por isso podemos adicionar mais 1, para mostrar do jeito que estamos habituados
             .getFullYear() - mostrar o ano
+
+            get é usado para obter e set para setar(inserir)
        
        var data = new Date();
        //document.write(data.getDay()+1);
@@ -25,8 +28,60 @@
         */
 
         var data = new Date();
-        // Desafio 1: Adicionar ou remover dias da data
-        document.write(data.toDateString()); //converdendo o nosso objecto data, para uma string
+        // Desafio 1: Adicionar ou remover dias da
+        document.write(data.toString()); //converdendo o nosso objecto data, para uma string
+        data.setDate(data.getDate()+1);// iserindo 1 dia, na data atual
+        document.write('<hr>');
+        document.write(data.toString());
+        document.write('<hr>');
+        document.write('<br>');
+
+        // Desafio 2: Adicionar ou remover meses
+        document.write(data.toString()); //converdendo o nosso objecto data, para uma string
+        data.setMonth(data.getMonth() + 4);// iserindo 4 meses, na data atual
+        document.write('<hr>');
+        document.write(data.toString());
+        document.write('<hr>');
+        document.write('<br>');
+
+        // Desafio 2: Adicionar ou remover anos
+        document.write(data.toString()); //converdendo o nosso objecto data, para uma string
+        data.setFullYear(data.getFullYear() - 3);// diminuindo 3 anios, na data atual
+        document.write('<hr>');
+        document.write(data.toString());
+        document.write('<hr>');
+       
+        document.write('<br>');
+        document.write('<br>');
+        document.write('<br>');
+        document.write('<br>');
+
+
+        // calcular data entre 15/04/2023 até 20/05/2027
+
+        //15/04/2023
+        var data1 = new Date(2017,3,15)
+
+        //20/05/2027
+        var data2 = new Date(2027,4,20)
+
+        document.write(data1.toString());
+        document.write('<hr>');
+        document.write(data2.toString());
+
+        //passo 2: converter isso para algo que possamos calcular
+        document.write('<hr>');
+        document.write('<hr>');
+        document.write('<br>');
+        document.write('<br>');
+        document.write(data1.getTime());
+        document.write('<hr>');
+        document.write(data2.getTime());
+        document.write(data1.getTime() - data2.getTime());
+        document.write('<hr>');
+
+
+
 
     </script>
 </body>
