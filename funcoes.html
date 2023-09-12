@@ -26,7 +26,7 @@
 
             parametros - funcionam como uma especie de entrada de dados para a função, são variaveis, podemos ou não defini-las, eles tbm podem ser chamados de argumentos
             dentro do escopo de uma função, podemos usar todos os recursos da linguagem de programação para a lógica da função.
-        */
+        
          function calcularAreaTerreno( largura, comprimento){
             //logica
             var area = comprimento * largura;
@@ -41,7 +41,14 @@
       var comprimento = prompt('Digite o cumprimento do terreno em metros quadrados:');
 
       document.write('O terreno possui:'+calcularAreaTerreno(largura, comprimento)+' metros quadrados');
+       */
 
+       // As funções do javascript tem uma flexibilidade melhor nos parametros.
+
+       function soma (a,b){
+        return a+b;
+       }
+       console.log(soma(7,7,9,14)); //ele vai ignorar nos parametros em excesso e continuar o programa, ao invés de dar bug
     </script>
 </body>
 </html>
