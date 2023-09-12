@@ -9,7 +9,23 @@
     <script>
         /*
             ============================================================Funções para Datas =========================================================
+            diferente da função math, o Date é um objecto, que precisa ser instânciado.
+            as datas são baseadas nas datas do sistema operacional, onde o browser está rodando
+
+            .getDay() - pegar o dia da semana em questão 0-6, por isso podemos adicionar mais 1, para mostrar do jeito que estamos habituados
+            .getDate() - pegar o dia do mes em questão 1-31
+            .getMonth() - pegar o mes em questão 0-11, por isso podemos adicionar mais 1, para mostrar do jeito que estamos habituados
+            .getFullYear() - mostrar o ano
+       
+       var data = new Date();
+       //document.write(data.getDay()+1);
+       //document.write(data.getDate());
+       document.write(data.getMonth()+1);
+       document.write(data.getFullYear());
         */
+
+        var data = new Date();
+
     </script>
 </body>
 </html>
