@@ -6,8 +6,36 @@
     <title>CallBack</title>
 </head>
 <body>
+    
     <p>CallBack é um metodo chamado para usar funcões como parametros para outra função</p>
     <hr>
+
+    <script>
+        /*
+        */
+       function exibirArtigo(id, callbackSucesso, callbackErro){
+        //logica: recuperar id via requisição http
+
+        if(true){
+            callbackSucesso('TITULO ARTIGO', 'Descrição artigo');
+        }
+        else{
+            callbackErro('Erro ao recuperar os dados');
+        }
+
+       }
+       //agora precisamos chamar a função e usar a tecnica de wrapper
+
+       var callbackSucesso = function (titulo, descricao){
+            document.write('<h1>'+titulo+'</h1>');
+            document.write('<hr>');
+            document.write('<p>'+descricao+'</p>');
+       }
+       var callbackErro = function(){
+
+       }
+       exibirArtigo(1,callbackSucesso, callbackErro);
+    </script>
     
 </body>
 </html>
