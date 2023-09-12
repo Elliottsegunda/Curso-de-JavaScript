@@ -31,8 +31,8 @@
             document.write('<hr>');
             document.write('<p>'+descricao+'</p>');
        }
-       var callbackErro = function(){
-
+       var callbackErro = function(erro){
+        document.write('<p>Erro:'+erro+'</p>');
        }
        exibirArtigo(1,callbackSucesso, callbackErro);
     </script>
