@@ -15,12 +15,19 @@
         /*
         =============================METODOS=======================================
         charAt() - exibe o caracter contido num indice
-        indexOf() - identifica a primeira occorencia de um caracter dentro da cadeia de caracteres
+        indexOf() - identifica a primeira occorencia de um caracter dentro da cadeia de caracteres, ele faz destinção entre maiusculas e minusculas
+        toLowerCase () - converte todos os valores para minusculas
+        toUpperCase () - converte todos os valores para maiusculas
+        replace() - substituir grupos de caracter, por outro
         */
        // document.write('José Nzinga Dembo'.length);
        // document.write('José Nzinga Dembo'.charAt(6));
-       var nome = 'Elliott Segunda';
-        document.write(nome.indexOf('E'));
+       // var nome = 'Elliott Segunda';
+      //  document.write(nome.indexOf('E'));
+        var nome = 'Elliott Segunda';
+        document.write(nome.replace('Segunda','Davis'));
+        document.write(nome.toLowerCase());
+        document.write(nome.toUpperCase());
     </script>
 </body>
 </html>
