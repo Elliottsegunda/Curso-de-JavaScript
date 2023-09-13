@@ -10,10 +10,17 @@
         /*
         onfocus - é ativado quando o elemento ganha o foco.
         onblur - é ativado quando o elemento perde o foco
-        onchange - 
+        onchange - metodo utilizado qu8ando o metodo sofre uma modificação de estado
 
         */
     </script>
     <input onfocus="console.log('recebeu o foco')" onblur="console.log('perdeu o foco')" type="text" />
+    <br>
+    <select name="" id="" onchange="console.log('Estado foi modificado')">
+        <option>---Selecione---</option>
+        <option value="1">Opção 1</option>
+        <option value="2">Opção 2</option>
+        <option value="3">Opção 3</option>
+    </select>
 </body>
 </html>
