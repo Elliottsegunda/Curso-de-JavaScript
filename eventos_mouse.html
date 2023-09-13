@@ -8,8 +8,23 @@
 <body>
     <script>
         /*
+        os eventos ele são declarados no html, aplicando a sintaxe de propriedade
+        esses eventos podem ser disparados todos de uma vez, não apenas um por elemento
+        onclick - evento disparado quando o mouse é clicado
+        ondblclick - evento disparado quando o mouse é clicado 2x sequencialmente
+        onmouseup - evento disparado quando o click no mouse é liberado
+        onmouseover - evento disparado quando o cursor do mouse sobrepõem a área do elemnto html
+        onmouseout - evento disparado quando o cursor do mouse sai da área ocupada pelo elemnto html
         
         */
+       function acao1(){
+        alert('Evento disparado, você clicou sobre o elemento');
+       }
+
+       function acao2(){
+        alert('Evento disparado, você saiu da area de contacto do elemento');
+       }
     </script>
+    <div onclick="acao1()" onmouseout="acao2()"  style="background-color: #ccc; width: 150px; height: 150px;"></div>
 </body>
 </html>
