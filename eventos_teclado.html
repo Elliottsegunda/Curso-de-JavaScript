@@ -9,15 +9,15 @@
     <script>
         /*
          ------Teclado-----
-        onkeydown - evento ativado quando qualquer tecla é clickada
+        onkeydown - evento ativado quando qualquer tecla é clickada (primeiro a lógica, depois a letra)
         onkeypress - evento ativado enquanto a tecla está pressionada, só em teclas que sejam caracteres
-        onkeyup - evento ativado quando a tecla é liberada
+        onkeyup - evento ativado quando a tecla é liberada(primeiro a lógica, depois os dados)
         */
 
         function accao1(){
-            alert('Evento accionado')
+            alert('Evento accionado');
         }
     </script>
-    <input onkeydown="acao1()" type="text" name="" id="">
+    <input onkeyup="accao1()" type="text" name="" id="">
 </body>
 </html>
