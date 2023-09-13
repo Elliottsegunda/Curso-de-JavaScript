@@ -5,11 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Eventos Janelas</title>
 </head>
-<body>
+<body onresize="alert('evento disparado')">
     <script>
         /*
-        
+        onresize - evento accionado quando a página ou a frame é redimencionado, é evento especifico do body, porque é o body quem agrupa todo o conteudo, e ele sente a redimsão da janela
+        onscroll - pode ser adicionado em qualquer elemento que tenha um scroll
+
         */
     </script>
+
+    <div style="height: 3000px; width: 125px; background-color: aqua;"></div>
 </body>
 </html>
