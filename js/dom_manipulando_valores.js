@@ -5,6 +5,9 @@ function distribuirCaracter(){
     //limpar o campo de digitação
     document.getElementById('caracter').value = '';
 
+    //limpar os espaços em brancos nas extremidades.
+    caracter_digitado.trim();
+
     switch(caracter_digitado){
         case '0' :
         case '1' :
