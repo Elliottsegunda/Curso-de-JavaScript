@@ -16,10 +16,10 @@ function subtrairNumeros(){
 }
 
 if(operacao == 'somar'){
-    document.write('O resultado da soma é:'+somarNumeros());
+    document.write('O resultado da soma '+num1+' e'+num2+' é:'+somarNumeros());
 }
 else if(operacao == 'subtrair'){
-    document.write('O resultado da Subtração é:'+subtrairNumeros());
+    document.write('O resultado da Subtração entre '+num1+' e'+num2+'é:'+subtrairNumeros());
 
 }
 else{
