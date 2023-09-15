@@ -20,11 +20,11 @@ function distribuirCaracter(){
         case '8' :
         case '9' :
             // todos os cases vieram sem break porque para qualquer um deles a acção será a mesma.
-            document.getElementById('numbers_only').value = caracter_digitado;
+            document.getElementById('numbers_only').value += caracter_digitado;
         break;
         default:
             //adicionar no campo de letras, se não for um numero, é uma letra
-            document.getElementById('letters_only').value = caracter_digitado;
+            document.getElementById('letters_only').value += caracter_digitado;
 
     }
 }
