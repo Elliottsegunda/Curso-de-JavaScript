@@ -1,4 +1,4 @@
 
 function modificaEstilo(corDeFundo){
-    console.log(document.getElementById('quadrado'));
+    document.getElementById('quadrado').style.background = corDeFundo;
 }
