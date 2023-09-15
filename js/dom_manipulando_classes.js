@@ -1,3 +1,3 @@
 function modificaClasse(){
-    document.getElementById('mensagem').style.className = 'estilo2' ;
+    document.getElementById('mensagem').className = 'estilo2' ;
 }
