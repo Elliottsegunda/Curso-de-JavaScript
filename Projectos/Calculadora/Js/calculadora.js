@@ -6,6 +6,9 @@ function calcular(tipo, valor){
             //limpar o visor
             document.getElementById('resultado').value = '';
         }
+        if( valor === '+' || valor === '-' || valor === '*' || valor === '/' || valor === '.'){
+            
+        }
 
     }
     else if(tipo === 'valor'){
