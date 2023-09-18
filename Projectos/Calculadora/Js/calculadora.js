@@ -5,7 +5,8 @@ function calcular(tipo, valor){
 
     }
     else if(tipo === 'valor'){
-        document.getElementById('resultado').value = valor;
+        var valor_campo = document.getElementById('resultado').value;
+        document.getElementById('resultado').value = valor_campo + valor;
 
     }
 }
