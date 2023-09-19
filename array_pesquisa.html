@@ -9,6 +9,7 @@
 <body>
     <script>
         /*
+        para fazer pesquisa num array utilizamos o metodo indexOf, nativo dos arrays
         */
        var lista_frutas = Array();
        lista_frutas[0] = 'Banana';
@@ -16,6 +17,8 @@
        lista_frutas[2] = 'Morango';
        lista_frutas[3] = 'Uva';
        lista_frutas[4] = 'Laranja';
+
+       console.log(lista_frutas.indexOf('Laranja'));// retorna o indice onde o elemento pesquisado está contido, caso o elemento não exista ele vai retornar -1
     </script>
 </body>
 </html>
