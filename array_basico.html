@@ -13,7 +13,7 @@
         // apartir da referencia da variavel podempos criar indices, que vão conter valores
         lista_frutas[1] = 'Banana';
         lista_frutas[2] = 'Maça';
-        lista_frutas[3] = 'Morango';
+        lista_frutas[6] = 'Morango'; //por estar fora de ordem, vai desitabilizar o length
         lista_frutas[4] = 'Uva';
 
         console.log(lista_frutas);
@@ -22,6 +22,9 @@
         // os indices podem ser  numeros, estringues, e muito mais
 
         //caso não definamos os indices, o js é auto-inteligente para criar indices apartir do zero.
+        /*
+        Em elementos do tipo string, o atributo length retorna a quantidade de caracteres, já num array, ele retorna a quantidade de indices do array, contando que estejam escritos de forma numerica e sequencial, caso esteja usando o length para testar um array melhor ter cuidado, ele pode não dar o numero exacto.
+        */
     </script>
 </body>
 </html>
