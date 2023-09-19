@@ -10,6 +10,8 @@
     <script>
         /*
         geralmente quando definimos os eleementos no array, eles são ordenados da forma como foram definidos.
+        sort() - ordena os elementos dos arrays de forma alfana-numerica e rearanja os indices de forma a estarem equilibrados
+        o sort, continuara exibindo e organizando de forma alfa numericas, o que condiciona se forem numeros que estão armazenados nos indices dos arrays.
         */
        var lista_frutas = Array();
 
@@ -17,6 +19,18 @@
        lista_frutas[1] = 'Morango';
        lista_frutas[2] = 'Banana';
        lista_frutas[3] = 'Maça';
+
+       console.log(lista_frutas.sort());
+
+       var lista_idades = []; // outra forma de definir array
+       lista_idades[0] = 13;
+       lista_idades[1] = 23;
+       lista_idades[2] = 13;
+       lista_idades[3] = 44;
+       lista_idades[4] = 18;
+       lista_idades[5] = 53;
+
+       console.log(lista_idades.sort());
     </script>
 </body>
 </html>
