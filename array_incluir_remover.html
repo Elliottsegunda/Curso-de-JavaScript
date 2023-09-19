@@ -9,6 +9,7 @@
 <body>
     <script>
         /*
+        podemos usar eles elementos em array multidirecionais tambem : lista_coisas['frutas'].unshift('Uva')
         */
        var lista_frutas = Array();
        lista_frutas[0] = 'Banana';
@@ -17,7 +18,16 @@
        //incluir elemento no final do array()
        lista_frutas.push('Uva');
 
+        //incluir elemento no inicio do array()
+        lista_frutas.unshift('Laranja');
+
        console.log(lista_frutas);
+
+        //excluir elemento no final do array()
+        lista_frutas.pop();
+
+         //iexcluir elemento no inicio do array()
+       lista_frutas.shift();
     </script>
 </body>
 </html>
