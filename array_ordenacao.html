@@ -30,7 +30,10 @@
        lista_idades[4] = 18;
        lista_idades[5] = 53;
 
-       console.log(lista_idades.sort());
+       console.log(lista_idades.sort(ordenaNumeros));
+       function ordenaNumeros(a,b){
+             return a-b;
+       }
     </script>
 </body>
 </html>
