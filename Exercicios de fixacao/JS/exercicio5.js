@@ -19,3 +19,7 @@ function adicionarElemento(){
     }
 
 }
+function ordenarElemento (){
+    objectos.sort();
+    console.log(objectos);
+}
