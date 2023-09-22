@@ -7,6 +7,7 @@
     <title>Document</title>
 </head>
 <body>
+    
     <script>
         var lista_frutas = Array();
         lista_frutas[0] = 'Banana';
@@ -17,9 +18,9 @@
 
         console.log(lista_frutas.length)
         var y = 0;
-        while( y  <= lista_frutas.length)// essa condição funcionou, porque todos os nossos indices são numericos e sequecialmente organizados, portanto a propriedade length mostrou seus valores de forma correcta
+        while( y < lista_frutas.length)// essa condição funcionou, porque todos os nossos indices são numericos e sequecialmente organizados, portanto a propriedade length mostrou seus valores de forma correcta
         { 
-            document.write(lista_frutas[y]);
+            document.write(lista_frutas[y]+'<br>');
             y++;
         }
     </script>
