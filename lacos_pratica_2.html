@@ -8,9 +8,13 @@
 </head>
 <body>
     
+    
     <script>
-        for(var x = 1; x<= 12; x++){
-            document.write('1 X '+x+' = '+(1*x)+'<br>');
+        for(var y =1 ;y<= 12; y++){
+            for(var x = 1; x<= 12; x++){
+                document.write(y+' X '+x+' = '+(y*x)+'<br>');
+            }
+            document.write('<hr>')
         }
     </script>
 </body>
