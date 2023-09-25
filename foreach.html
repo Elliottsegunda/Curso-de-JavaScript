@@ -10,7 +10,12 @@
     <script>
         /*
         Diferente do php o foreach no js não é bem uma estrutura de repetição,ele é aplicado a array, ele funciona como uma função!
+        o foreach espera uma função callback que recebe 3 parametros, o valor, o indice e o array.
         */
+       var listaFuncionarios = ['Elliott','Consultoria','Dilan'];
+       listaFuncionarios.forEach(function(valor){
+        console.log(valor);
+       })
     </script>
 </body>
 </html>
