@@ -13,11 +13,20 @@
         o foreach espera uma função callback que recebe 3 parametros, o valor, o indice e o array.
 
         a função callback, vai percorrer o array cada vez.
+
+        outra coisa que podemos fazer para reduzir e deixar o codigo mais compreensivel, podemos armazenar a função numa variavel.
         */
-       var listaFuncionarios = ['Elliott','Consultoria','Dilan'];
-       listaFuncionarios.forEach(function(valor){
-        console.log(valor);
-       })
+       //var listaFuncionarios = ['Elliott','Consultoria','Dilan'];
+       //listaFuncionarios.forEach(function(valor,indice){
+        //console.log(valor,indice);
+       //})
+
+       var funcall = function(valor,indice){
+        console.log(valor, indice);
+       }
+       var listaFuncionarios = ['Elliott','Dost','Carla'];
+       listaFuncionarios.forEach(funcall);
+
     </script>
 </body>
 </html>
