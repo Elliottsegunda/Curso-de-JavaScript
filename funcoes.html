@@ -57,7 +57,10 @@
        //===================================PARAMETROS VARIAVEIS ==========================================
        //==================================================================================================
        function soma(){
-        console.log(arguments);
+        var resultuado = 0;
+        for(var i in arguments){
+            console.log(arguments[i]);
+        }
        }
        console.log(soma());
     </script>
