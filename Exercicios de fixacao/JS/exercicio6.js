@@ -17,10 +17,9 @@ console.log(lista_pessoas);
     while(x <=12){
         y=1;
         while(y <=12 ){
-
-        
         document.write(x+' X '+y+' = '+ x*y +'<br>');
         y++;
         }
         x++
+        document.write('<br>');
     }
