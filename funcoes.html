@@ -60,9 +60,11 @@
         var resultuado = 0;
         for(var i in arguments){
             console.log(arguments[i]);
+            resultuado +=arguments[i]; 
         }
+        return resultuado;
        }
-       console.log(soma());
+       console.log(soma(2,4,8));
     </script>
 </body>
 </html>
