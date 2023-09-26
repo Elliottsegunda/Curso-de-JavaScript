@@ -5,6 +5,22 @@ lista_pessoas[1] = 'Davis';
 lista_pessoas[2] = 'Ambriz';
 lista_pessoas[3] = 'Segunda';
 
-    for(var i; i<= lista_pessoas.lenght;i++){
+console.log(lista_pessoas);
+    for(var i = 0; i<= lista_pessoas.length; i++){
         console.log(lista_pessoas[i]);
+    }
+    document.write('<hr>');
+
+    var x = 1;
+    var y = 1;
+
+    while(x <=12){
+        y=1;
+        while(y <=12 ){
+
+        
+        document.write(x+' X '+y+' = '+ x*y +'<br>');
+        y++;
+        }
+        x++
     }
