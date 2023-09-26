@@ -8,8 +8,18 @@
 </head>
 <body>
     <script>
-        setTimeout(function(){ document.write('Teste')},2000);// sempre o tempo em milisegundos, executa apenas uma vez
-        setInterval(function(){ document.write('Teste Interval')},4000); // interpreta varias vezes, toda vez que o tempo indicado for atingido.
+       // setTimeout(function(){ document.write('Teste')},2000);// sempre o tempo em milisegundos, executa apenas uma vez
+       //clearTimeout() - para interromper
+        //setInterval(function(){ document.write('Teste Interval')},4000); // interpreta varias vezes, toda vez que o tempo indicado for atingido.
+
+        //CRONOMETRO
+        var i = 100
+        setInterval(function(){ document.write(i+'<br>'); i = i-1},1000);
+
+        if(i === 0 ){
+            document.write('ACABOU O TEMPO');
+            clearInterval();
+        }
     </script>
 </body>
 </html>
