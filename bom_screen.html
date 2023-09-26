@@ -11,6 +11,18 @@
         /*
         A propriedade screen nos permite adicionar ações baseado no tamanho de tela, o que pode ser util na responsividade
         */
+       var altura = window.screen.availHeight;
+       var largura = window.screen.availWidth;
+
+       document.write('A altura é :'+altura+' e a largura é : '+largura); // eles vão mostrar valores maximos, ou seja, até onde podem ser expandidos
+
+       if(largura <= 500 ){
+            document.write('Logica para dispostivos mobile');
+       }
+       else{
+        document.write('Logica para dispostivos web');
+
+       }
     </script>
 </body>
 </html>
