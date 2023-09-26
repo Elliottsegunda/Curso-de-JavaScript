@@ -13,13 +13,9 @@
         //setInterval(function(){ document.write('Teste Interval')},4000); // interpreta varias vezes, toda vez que o tempo indicado for atingido.
 
         //CRONOMETRO
-        var i = 100
-        var cronometro = setInterval(function(){ document.write(i+'<br>'); i = i-1},1000);
-
-        if(i === 0 ){
-            document.write('ACABOU O TEMPO');
-            clearInterval(cronometro);
-        }
+        var i = 5
+        var cronometro = setInterval(function(){ document.write(i+'<br>'); i = i-1;if(i === 0 ){document.write('ACABOU O TEMPO');clearInterval(cronometro);}},1000);
+        
     </script>
 </body>
 </html>
