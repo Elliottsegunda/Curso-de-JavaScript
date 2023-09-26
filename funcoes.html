@@ -41,7 +41,7 @@
       var comprimento = prompt('Digite o cumprimento do terreno em metros quadrados:');
 
       document.write('O terreno possui:'+calcularAreaTerreno(largura, comprimento)+' metros quadrados');
-       */
+       
 
        // As funções do javascript tem uma flexibilidade melhor nos parametros.
 
@@ -50,8 +50,16 @@
        }
        console.log(soma(7,7,9,14)); //ele vai ignorar nos parametros em excesso e continuar o programa, ao invés de dar bug
 
-       /*
-       caso não sejam definidos valores para o parametro, eles vão ser undefined e o resultuado posterior será not a number(NaN)*/
+       /*   caso não sejam definidos valores para o parametro, eles vão ser undefined e o resultuado posterior será not a number(NaN)*/
+
+
+       //==================================================================================================
+       //===================================PARAMETROS VARIAVEIS ==========================================
+       //==================================================================================================
+       function soma(){
+        console.log(arguments);
+       }
+       console.log(soma());
     </script>
 </body>
 </html>
